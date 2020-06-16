@@ -1,0 +1,28 @@
+body{
+  background-color: #cae8d5;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+h1{
+  font-family: 'Balsamiq Sans', cursive;
+}
+h2{
+  font-family: 'Open Sans', sans-serif;
+}
+#result{
+  color: #e43f5a;
+}
+#income{
+  color: #d8b9c3;
+}
+.retire{
+  background-color: #84a9ac;
+  position: relative;
+  left: 400px;
+  width: 500px;
+  height: 900px;
+  text-align: center;
+}
+.images{
+  width: 100px;
+}

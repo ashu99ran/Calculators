@@ -1,0 +1,26 @@
+body{
+  background-color: #cae8d5;
+  margin: 0;
+  padding-top: 50px;
+}
+h1{
+  font-family: 'Balsamiq Sans', cursive;
+}
+h2{
+  font-family: 'Open Sans', sans-serif;
+}
+#result{
+  color: #f5a8a8;
+}
+.sip{
+  background-color: #27496d;
+  position: relative;
+  left: 400px;
+  height: 600px;
+  width: 500px;
+  text-align: center;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+.images{
+  width: 100px;
+}

@@ -1,0 +1,31 @@
+body{
+  background-color: #cae8d5;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+h1{
+  font-family: 'Balsamiq Sans', cursive;
+}
+h2{
+  font-family: 'Open Sans', sans-serif;
+}
+#result{
+  color: #f5a8a8;
+}
+#fv{
+  color: #f5a8a8;
+}
+#fv1{
+  color: #f5a8a8;
+}
+.goal{
+  background-color: #888888;
+  position: relative;
+  left: 450px;
+  width: 500px;
+  height: 930px;
+  text-align: center;
+}
+.images{
+  width: 100px;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>A assignment</title>
+    <!-- CSS sheet -->
+    <link rel="stylesheet" href="retirestyle.css">
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&family=Noto+Sans+JP:wght@500&family=Open+Sans:wght@600&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container">
+      <div class="retire">
+        <img class="images" src="sip.png" alt="sipcal">
+        <h1>Retirement Calculator</h1>
+        <form class="" action="index.html" method="post">
+         <p>Retirement Age</p>
+          <input id="r1" type="text" name="Retirement Age" value="0.0">
+          <p>Years to Retire</p>
+          <input id="y" type="text" name="Number of Years" value="0.0">
+          <p>Life After Retirement</p>
+          <input id="l" type="text" name="Life After r" value="0.0">
+          <p>Inflation</p>
+          <input id="i" type="text" name="inflation" value="0.0">
+          <p>Annual Rate of Return</p>
+          <input id="r" type="text" name="rate of return" value="0.0">
+          <p>Current Expence</p>
+          <input id="c" type="text" name="current expence" value="0.0">
+          <p>Post Retirement expence reduce to </p>
+          <input id="rd" type="text" name="reduction" value="0.0">
+          <br>
+          <br>
+          <button type="button" name="Submit" onclick="calc()">Submit</button><br>
+          <h2>Your Corpse:</h2>
+          <p id="income"></p>
+          <p id="result"></p>
+
+        </form>
+
+      </div>
+
+    </div>
+    <script src="retire.js"></script>
+  </body>
+</html>

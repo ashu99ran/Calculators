@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>A Assignment</title>
+    <!-- CSS sheet -->
+    <link rel="stylesheet" href="goalstyle.css">
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&family=Noto+Sans+JP:wght@500&family=Open+Sans:wght@600&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container">
+
+        <div class="goal">
+          <img class="images" src="sip.png" alt="sipcal">
+          <h1>Goal Calculator</h1>
+          <form class="" action="index.html" method="post">
+           <p>Number of Years</p>
+            <input id="n" type="text" name="Monthly Investment" value="0.0">
+            <p>Present Value</p>
+            <input id="pv" type="text" name="Number of Years" value="0.0">
+            <p>Rate of Return</p>
+            <input id="r" type="text" name="Returns" value="0.0">
+            <p>Rate of Inflation</p>
+            <input id="i" type="text" name="Returns" value="0.0">
+            <p>Investment</p>
+            <input id="inve" type="text" name="Returns" value="0.0">
+            <br>
+            <br>
+            <button type="button" name="Submit" onclick="calc()">Submit</button><br>
+            <h2>Monthly savings from today:</h2>
+            <p id="result">''</p>
+            <h2>Cost in Future Times:</h2>
+            <p id="fv">''</p>
+            <h2>Existing Investment:</h2>
+            <p id="fv1">''</p>
+          </form>
+        </div>
+    </div>
+
+
+    <script src="goal.js" charset="utf-8"></script>
+
+  </body>
+</html>
